@@ -5,7 +5,7 @@ public enum Genre {
     SCIFI,
     ROMANTIC,
     FICTION,
-    NON_FUNCTION,
+    NON_FICTION,
     SPIRITUAL,
     BIOGRAPHY
 }

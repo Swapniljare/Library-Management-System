@@ -23,8 +23,10 @@ public class Student {
     private String name;
     private int age;
     @Enumerated(EnumType.STRING)
-    Department department;
-    private String Email;
+    private Department department;
+
+    @Column(unique = true)
+    private String email;
 
     @OneToOne(mappedBy = "student" ,cascade = CascadeType.ALL)
     LibraryCard card;
